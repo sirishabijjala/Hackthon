@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="Expense.css">
+</head>
+<body><div id="container">
+   <h1>Expense Tracker</h1>
+    Name:<input type="text" id="name" placeholder="Name"><br>
+    Amount:<input type="number" id="amount" placeholder="Amount"><br>
+    Category:<input type="text" id="category" placeholder="Category"><br>
+    Date:<input type="date" id="date" placeholder="Date"><br>
+    <button id="button1" onclick="expapp.addNewName(expapp.nameInputHTML.value, expapp.amountInputHTML.value, expapp.categoryInputHTML.value, expapp.dateInputHTML.value)">Submit</button>  
+    <ul id="Expenseitems">
+    </ul>  </div>
+    <script src="Expense.js"></script>
+</body>
+</html>
